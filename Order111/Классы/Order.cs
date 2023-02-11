@@ -12,7 +12,9 @@ namespace OrderGen.Domain
     {   
         private readonly IList<OrderItem> _orderItems = new List<OrderItem>();
         private int _id;//Номер накладной
+
         public Order()//Конструктор товара 
+
         {
             _id = 1; //Номер накладной начинается с 1
             Created = DateTime.Today;//Запоминаем сегодняшнюю дату
